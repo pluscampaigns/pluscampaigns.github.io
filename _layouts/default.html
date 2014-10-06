@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml">
+
+    {% include head.html %}
+
+    <body>
+      <div id="background-image">
+
+        {% include header.html %}
+
+        {% if page.summary %}
+        <div class="container">
+          <summary>
+            {{ page.summary }}
+          </summary>
+        </div>
+        {% endif %}
+
+        <main class="container shadow-half" id="content">
+          {{ content }}
+        </main>
+
+        {% include footer.html %}
+
+      </div>
+    </body>
+
+</html>

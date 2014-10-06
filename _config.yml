@@ -1,0 +1,11 @@
+# Site settings
+title: "+ Campaigns"
+description: "Providing creative communication and audio-visual to governments, non-governmental organisations and corporate clients in political affairs."
+baseurl: "/" # the subpath of your site, e.g. /blog/
+url: "http://www.pluscampaigns.com" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+
+# Custom directories
+include: ["_pages"]
